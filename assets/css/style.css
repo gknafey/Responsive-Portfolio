@@ -44,6 +44,7 @@ a:visited {
     top: 40px;
     padding: 0 30px 0px 30px;
     border: 1px solid #dddddd;
+    min-height: 400px;
 }
 
 .header {
@@ -110,6 +111,11 @@ a:visited {
     border-bottom: 2px solid rgb(209, 209, 209);
 }
 
+.portLinks {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .underTitle {
     color:rgb(81, 118, 185);
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -162,6 +168,10 @@ img {
     z-index: 1;
 }
 
+.nameColor {
+    color: rgb(81, 118, 185);
+}
+
 #positioned {
     position: static;
     width: 960;
@@ -199,7 +209,7 @@ img {
 }
 
 #contactinfotitle {
-    color:#777777;
+    color:rgb(81, 118, 185);;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
@@ -210,10 +220,10 @@ img {
     color:#777777;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px 0 20px 0;
     border-bottom: 2px solid rgb(209, 209, 209);
-    line-height: 20px;
+    line-height: 30px;
 }
 
 #myres {
