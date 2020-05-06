@@ -8,44 +8,64 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header class="header">
-
-        <h2 id="myname"><br>Garrett K. Nafey</h2>
-
-        <p class="rightheader">
-
-            <a id="about" href="index.html">About</a>
-
-            <a id="portfolio" href="#">Portfolio</a>
-
-            <a id="contact" href="contact.html">Contact</a>
-
-        </p>
-
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand myname">Garrett K. Nafey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+            style="background-color:rgb(81, 118, 185)">
+            <span class="navbar-toggler-icon" style="background-color:rgb(81, 118, 185)"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" style="color:grey" href="#">About Me <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html" style="color:grey">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html" style="color:grey">Contact</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            
-            <a target="_blank" href="https://gknafey.github.io/TriviaGame/"><img class="pictures"
-                    src="./assets/images/headphones.jpg" alt="./assets/images/placeholderimage.jpg"></a> <a
-                target="_blank" href="https://github.com/gknafey/TriviaGame">Github Repo Trivia</a> <br>
+
+            <h2 class="aboutme">Portfolio</h2>
+
+            <p class="underTitle"> ( Click the image links below on the left to see portfolio examples and click on the
+                links on the right to view the their Github Repos )</p>
+
+            <p class="underTitle"> Deployed Work Examples </p>
+
+            <a target="_blank" href="https://www.plasterrestorationsllc.com/"><img class="pictures" src="./assets/images/headphones.jpg"
+                    alt="./assets/images/placeholderimage.jpg"></a> <a target="_blank"
+                href="https://github.com/gknafey/Project3">Github for Plaster Restorations LLC</a> <br>
+
+            <a target="_blank" href="https://wavb.herokuapp.com/"><img class="pictures" src="./assets/images/headphones.jpg"
+                    alt="./assets/images/placeholderimage.jpg"></a> <a target="_blank"
+                href="https://github.com/gknafey/wavb"> (This site is still in progress) Github for Will's Amazing Vegan Burgers</a> <br>
+
+            <p class="underTitle"> Older Project Examples </p>
 
             <a target="_blank" href="https://gknafey.github.io/Common-Grounds/"><img class="pictures"
                     src="./assets/images/ubuntu.png" alt="./assets/images/placeholderimage.jpg"></a> <a target="_blank"
-                href="https://github.com/gknafey/Common-Grounds">Github Repo Common Grounds</a> <br>
-
-
+                href="https://github.com/gknafey/Common-Grounds">Github Repo for Common Grounds Project</a> <br>
 
             <a target="_blank" href="https://gknafey.github.io/GifTastic/"><img class="pictures"
                     src="./assets/images/gif.png" alt="./assets/images/placeholderimage.jpg"></a> <a target="_blank"
-                href="https://github.com/gknafey/GifTastic">Github Repo Gif-Tastic</a>
+                href="https://github.com/gknafey/MeVite">Github Repo for MeVite Project </a>
 
 
         </div>
