@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>About Me</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> 
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
-        <header class="header">
-                    
-                <h2 id="myname"><br>Garrett K. Nafey</h2>  
+</head>
 
-                <p class="rightheader">
+<body>
 
-                    <a id="about" href="#">About</a>  |
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand myname">Garrett K. Nafey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+            style="background-color:rgb(81, 118, 185)">
+            <span class="navbar-toggler-icon" style="background-color:rgb(81, 118, 185)"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" style="color:grey" href="#">About Me <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html" style="color:grey">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html" style="color:grey">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-                    <a id="portfolio" href="portfolio.html">Portfolio  </a>
-
-                    | <a id="contact" href="contact.html">Contact</a>
-        
-                </p>
-    
-        </header> 
-
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
+            <h1 class="display-4 aboutme">About Me</h1>
 
-            <h3 id="aboutme">About Me</h3>
-          
-            <p id="myinfo">
+            <img class="img-fluid float-left" src="./assets/images/myphoto.png"
+                alt="./assets/images/placeholderimage.jpg">
+            <p class="textPadding">
 
-                <img id="photome" src="./assets/images/myphoto.png" alt="./assets/images/placeholderimage.jpg">
-                
-                I am studying to become a full stack web developer. My goal is to obtain a job
-               
-                where I can work full time and remotely.  I participated in a Christian 
-               
-                leadership program for three years where I learned discipline, to lead, and 
-               
-                communicate effectively with all types of people. I also obtained a degree in 
-               
-                Environmental Business Economics from Rutgers University.  <br><br>
-                
-                After spending a significant amount of time in South America, I am almost fluent in Spanish.
-               
-                One day I would like to travel to more countries and return to visit South America. 
-                
-                I am very interested in VR and AR emerging technologies and plan to contribute to that
-
-                industry if possible. Another one of my aspirations is to learn Japanese, and possibly 
-                
-                Italian.  
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                I graduated from Rutgers University with a degree in Business Economics, afterwards I completed the
+                Rutgers Coding
+                Boot Camp for Full Stack Development. I am currently searching for a position where I can challenge
+                myself, continue
+                to grow my skills, and prepare for a family in the future. Since graduating from the rutgers Coding Boot
+                Camp I have
+                searching for work and working freelance. You can see examples of my work and previous projects in my
+                portfolio. In
+                freelance work I have been coding and designing React applications.
+                <br></br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Some transferable skills from others jobs and my experiences include three
+                years of a Christian leadership program I completed where I learned excellent communication skills and
+                teamwork living in
+                a household of eight people, working together and helping others. I have another three years of
+                experience working in a
+                warehouse where I gained leadership skills in a work environment, where I was trained in every aspect of
+                warehouse work and
+                later put in charge of training newcomers to the warehouse. I also spent six months in Chile, South
+                America where my girlfriend
+                lives, from this experience I can speak and write in the Spanish language at a proficient level.
             </p>
 
-            <p id="myres"><a id="myres" href="assets/Resume.pdf" targt="_blank" a>My Resume</a></p>
+            <p id="myres"><a id="myres" href="assets/GarrettNafeysResume.pdf" targt="_blank" a>My Resume</a>
+            </p>
 
         </div>
+    </div>
 
-        <div id="stickyfooterbase">
-            Apples
-        </div>
 
-        <footer class="footer">
-        
-            Copyright ©
-            
-        </footer>
 
-    </body>
+    <div id="stickyfooterbase">
+        Apples
+    </div>
+
+    <footer class="footer">
+
+        Copyright ©
+
+    </footer>
+
+
+</body>
 
 </html>
