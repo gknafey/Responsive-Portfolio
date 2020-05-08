@@ -173,6 +173,21 @@ a:visited {
     text-align: center;
 }
 
+.portLinks3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: grey;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.listofCode {
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    margin-left: 25px;
+}
+
 .portLink2 {
     font-size: 16px;
     font-weight: 600;
@@ -201,6 +216,18 @@ a:visited {
     text-decoration-line: underline;
     text-decoration-color: #666666;
 }
+
+.underTitle10 {
+    color:rgb(81, 118, 185);
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0%;
+    text-decoration-line: underline;
+    text-decoration-color: #666666;
+}
+
 .underTitle3 {
     color:rgb(81, 118, 185);
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -222,6 +249,28 @@ a:visited {
 
 .portLinks2 {
     margin-bottom: 3%;
+}
+
+.larger {
+    width: 100%;
+}
+
+.buttonColor {
+    margin-top: 2%;
+    background-color: rgb(81, 118, 185);
+}
+
+.buttonColor:hover {
+   background-color: #666666;;
+}
+
+.buttonColor2 {
+    margin-bottom: 1%;
+    background-color: rgb(81, 118, 185);
+}
+
+.buttonColor2:hover {
+    background-color: #666666;
 }
 
 .navbar-nav {
