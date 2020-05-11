@@ -82,8 +82,12 @@ a:visited {
     color: #cccccc;
 }
 
-.hover:hover {
+.hover {
     font-weight: bold;
+}
+
+.hover:hover {
+    text-decoration: underline;
     color: rgb(81, 118, 185);
 }
 
